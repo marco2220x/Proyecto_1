@@ -1,0 +1,92 @@
+table,
+td {
+border: 1px solid #333;
+text-align: center;
+width: auto;
+margin: 0 auto;
+
+}
+
+p {
+  margin: 10;
+ }
+
+
+thead,
+tfoot {
+background-color: #333;
+color: #fff;
+}
+
+nav {
+  text-align: center;
+
+  padding: 20px;
+
+
+}
+
+body{
+  background: white;
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+.inicio{
+  background-color: #FFEF82;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.cuadro{
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+}
+
+.encabezado {
+  text-align: center;
+  color: #f0a7b3;
+  background: white;
+  font: bold 150% monospace;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10px;
+  width: 5px;
+}
+
+
+
+.pie {
+  text-align: center;
+  color: #ffe1e0;
+  background: #395fa7;
+  font: bold 100% monospace;
+}
+.final{
+  text-align: center;
+  background-color: pink;
+  padding: 20px;
+color: red;
+  font: bold 150% monospace;
+}
