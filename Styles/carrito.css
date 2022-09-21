@@ -1,0 +1,103 @@
+.contenedor {
+  background-color: #FFEF82;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 3px;
+}
+
+.contenedorHeader {
+  background-color: #990000;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.contenedorIconos {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+body {
+  background: white;
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  font: Arial;
+}
+
+h3 {
+  font: sans-serif;
+  text-align: center;
+  background-color: #EFD345;
+}
+
+h1 {
+  text-align: center;
+  font: bold 150% monospace;
+  background-color: #990000;
+  color: #f5f5f5;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.botonVerde {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.botonVerde:hover {
+  background-color: #45a049;
+}
+
+.botonRojo {
+  background-color: #f43107;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.botonRojo:hover {
+  background-color: #f43107;
+}
+
+span.precios {
+  float: right;
+  color: grey;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0px;
+  width: 0px;
+}

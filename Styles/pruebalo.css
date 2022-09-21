@@ -1,0 +1,81 @@
+.encabezado {
+  text-align: center;
+  color: #f0a7b3;
+  background: #395fa7;
+  font: bold 150% monospace;
+}
+
+body{
+background: white;
+font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0px;
+  width: 0px;
+}
+
+.lema {
+  text-align: center;
+  color: #28795d;
+  background: pink;
+}
+
+nav {
+  text-align: center;
+  padding: 20px;
+}
+
+.inicio{
+  background-color: #FFEF82;
+}
+
+h2 {
+  text-align: center;
+  font: bold 150% monospace;
+  color: #28795d;
+}
+table,
+td {
+text-align: center;
+width: auto;
+
+}
+.titulo{
+  margin: 100%;
+  padding: 1000 200%;
+}
+thead,
+tfoot {
+background-color: #333;
+color: #fff;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 50px;
+  box-sizing: border-box; }
+
+.pie {
+  text-align: center;
+  color: #ffe1e0;
+  background: #395fa7;
+  font: bold 100% monospace;
+}
+.final{
+  text-align: center;
+  background-color: pink;
+  padding: 20px;
+color: red;
+  font: bold 150% monospace;
+}

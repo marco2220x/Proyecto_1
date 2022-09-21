@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="C:\TDAW\Styles\carrito.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Proceso de Compra</title>
+  </head>
+
+  <body>
+    <header class="contenedorHeader">
+      <h1>Realiza tu compra</h1>
+      <div class="logo">
+        <img src="C:\TDAW\images\mani.png" alt="Logo" title="Logo">
+      </div> <br>
+    </header>
+
+    <main>
+      <div class="contenedor">
+        <p>
+          <strong>Tú carrito</strong>
+          <span class="precios" style="color: black">
+            <i class="fa fa-shopping-cart"></i>
+            <b>4</b>
+          </span>
+        </p>
+        <p>Item 1 <span class="precios">$90</span></p>
+        <p>Item 2 <span class="precios">$90</span></p>
+        <p>Item 3 <span class="precios">$90</span></p>
+        <p>Item 4 <span class="precios">$90</span></p>
+        <hr />
+        <p>
+          Total <span class="precios" style="color: black"><b>$360</b></span>
+        </p>
+      </div>
+
+      <div class="contenedor">
+        <h3>Información de envío:</h3>
+        <label><i class="fa fa-user"></i> Nombre Completo</label>
+        <input type="text"/>
+        <label><i class="fa fa-envelope"></i> Email</label>
+        <input type="text"/>
+        <label><i class="fa fa-address-card-o"></i> Calle, número y colonia</label>
+        <input type="text"/>
+        <label><i class="fa fa-institution"></i> Ciudad</label>
+        <input type="text"/>
+
+        <label>Estado</label>
+        <input type="text"/>
+
+        <label>Código Postal</label>
+        <input type="text">
+
+        <hr>
+
+        <h3>Pago con tarjeta</h3>
+        <div class="contenedorIconos">
+          <i class="fa fa-cc-visa" style="color: navy"></i>
+          <i class="fa fa-cc-amex" style="color: blue"></i>
+          <i class="fa fa-cc-mastercard" style="color: red"></i>
+          <i class="fa fa-cc-discover" style="color: orange"></i>
+        </div>
+        <label>Nombre en tarjeta</label>
+        <input type="text"/>
+        <label>Número de tarjeta</label>
+        <input type="text"/>
+        <label>Mes de expiración</label>
+        <input type="text"/>
+
+        <label>Año de expiración</label>
+        <input type="text"/>
+
+        <label>CVV</label>
+        <input type="text"/>
+      </div>
+    </main>
+
+    <footer class="contenedor">
+      <form action="C:\TDAW\main\index.html">
+        <button class="botonRojo">Cancelar</button>
+      </form>
+      <form action="#">
+        <button class="botonVerde">Realizar Pedido</button>
+      </form>
+    </footer>
+  </body>
+</html>
